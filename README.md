@@ -17,7 +17,24 @@ Most people building a BoS OS ask the same question early on: is what I've got a
 
 Start with `CLAUDE.md`. It's GOURD Freight's own governing document, and it explains the constraints its agents operate under. Then read `01_STATE/session_summary.md` for where things currently stand, and `04_MISSIONS/M01_Pricing_Exception_Agent/MISSION.md` to see what a mission looks like once it's been shaped from a vague idea into something specific.
 
-This isn't a template to copy. Your strategy documents, decision boundaries, and missions should come from your own business, built with [Bootstrap, Workshop, and Run](https://github.com/BoSMark/BoS_OS_Start). GOURD Freight exists so you have something real to measure your own OS against once you've built one.
+## Get hands-on with it
+
+Reading the files only gets you so far. Clone this repo to its own folder on your computer, separate from any BoS OS you're building for your own company, and open it in Claude or any editor. Then follow the thread through a few files instead of reading them in isolation:
+
+1. Open `CLAUDE.md` first. It's the rulebook: what agents can and can't do, who approves what, where confidential material goes.
+2. Open `01_STATE/decisions.md` and pick a recent entry. Notice it names the files that changed as a result.
+3. Follow one of those files back to `04_MISSIONS/M01_Pricing_Exception_Agent/MISSION.md` and see how a vague idea became a scoped mission with a named owner and a decision boundary.
+4. Open `01_STATE/session_summary.md` and compare it to the decision log. That's what "current state" looks like day to day, not a one-time snapshot.
+
+None of this is precious. Rename files, delete a mission, add a fake strategy document, break something on purpose. It's a fictional company. There's nothing here to protect.
+
+```
+git clone https://github.com/BoSMark/GourdFreightOS.git
+```
+
+## This isn't a template to copy
+
+Your strategy documents, decision boundaries, and missions should come from your own business, built with [Bootstrap, Workshop, and Run](https://github.com/BoSMark/BoS_OS_Start). GOURD Freight exists so you have something real to measure your own OS against, and something safe to break, once you've built one.
 
 ## What's fictional, and why
 
